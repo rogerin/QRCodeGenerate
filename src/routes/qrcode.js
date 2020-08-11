@@ -42,8 +42,8 @@ router.get('/', function(req, res, next) {
         {
             content: url,
             ecl: ecl || "L",
-            background: background || 'white',
-            color: color ||  '#000000',
+            background: '#'+background || 'white',
+            color: '#'+color ||  '#000000',
             width: width ||  '200',
             height: height ||  '200',
             
