@@ -9,11 +9,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['qrclincode'],
+  app_name: [process.env.NEW_APP_NAME],
   /**
    * Your New Relic license key.
    */
-  license_key: '699b8b768ebe5ecad3f9b75c91c065eff055b2d8',
+  license_key: process.env.NEW_LICENSE_KEY,
   /**
    * This setting controls distributed tracing.
    * Distributed tracing lets you see the path that a request takes through your
