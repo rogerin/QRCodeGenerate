@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
@@ -16,6 +16,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
     "newrelic": "^6.12.0",
-    "qrcode-svg": "^1.1.0"
+    "qrcode-svg": "^1.1.0",
+    "request-progress": "^3.0.0"
   }
 }
