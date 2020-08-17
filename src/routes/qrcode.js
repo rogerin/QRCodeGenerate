@@ -138,8 +138,9 @@ router.get('/down/logo', async (req, res) => {
                 res.setHeader('Content-type', 'image/png')
                 res.status(200).send(a);
             } else {
+                res.statusCode = 200;
                 res.setHeader('Content-type', 'image/png')
-                res.status(200).send(a);
+                res.send(a);
             }
             fs.unlinkSync(file)
         })
