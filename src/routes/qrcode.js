@@ -98,7 +98,7 @@ router.get('/logo/:logo', async function(req, res) {
 
 
 router.get('/down/logo', async (req, res) => {
-    const { url_logo, url, ratio, background, color, width,height } = req.query;
+    const { url_logo, url, ratio, background, color, width,height, download } = req.query;
     const crypto = require("crypto");
     
 
@@ -133,11 +133,14 @@ router.get('/down/logo', async (req, res) => {
         }).then( (a) => {
             brandedQRCode.route(res)
         
-           
-            res.attachment("qrcode.png");
-            res.setHeader('Content-type', 'image/png')
-            res.status(200).send(a);
-            console.log('remove image')
+            if(download) {
+                res.attachment("qrcode.png");
+                res.setHeader('Content-type', 'image/png')
+                res.status(200).send(a);
+            } else {
+                res.setHeader('Content-type', 'image/png')
+                res.status(200).send(a);
+            }
             fs.unlinkSync(file)
         })
 
