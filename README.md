@@ -22,7 +22,7 @@ logo | Logomarca ao centro do QRCLinCode. disponíveis logo1, logo2, logoverde [
 color | Cor das linhas do código | -
 background | Cor do background | -
 width | Tamando da altura da imagem | -
-heigth | Deve ser igual ao width | -
+height | Deve ser igual ao width | -
 
 
 #### logo1
