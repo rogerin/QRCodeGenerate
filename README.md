@@ -1,5 +1,5 @@
 <p align="center" id="topo">
-  <img width="160" height="100" src="https://i.imgur.com/MvoZC9d.png">
+  <img width="160" height="100" src="https://satecnologia.com.br/wp-content/uploads/2021/03/cropped-cropped-satecnologia.png">
 </p>
 
 # QRClinCode
