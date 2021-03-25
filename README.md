@@ -1,5 +1,5 @@
 <p align="center" id="topo">
-  <img width="160" height="100" src="https://i.imgur.com/6M1oJ8D.png">
+  <img width="300" height="100" src="https://i.imgur.com/6M1oJ8D.png">
 </p>
 
 # QRClinCode
